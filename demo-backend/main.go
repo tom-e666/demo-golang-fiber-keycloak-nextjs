@@ -1,5 +1,8 @@
 package main
 
+// 2026 update: Annual maintenance - updated dependencies and added copyright notice
+// Copyright (c) 2026 Demo Project Contributors
+
 import (
 	"demo-backend/api/middlewares"
 	"demo-backend/api/routes"
