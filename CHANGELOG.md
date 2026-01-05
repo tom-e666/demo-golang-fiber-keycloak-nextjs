@@ -7,7 +7,7 @@ All notable changes to this project will be documented in this file.
 ### Changed
 - Updated all copyright years to 2026
 - Added visible "2026 version" badge in README.md
-- Bumped Go dependencies to latest stable versions compatible with Go 1.22
+- Bumped Go dependencies to latest stable versions compatible with Go 1.24
 - Updated Node.js/Next.js dependencies to latest stable versions
 - Updated Docker image versions in docker-compose.yml
 - Modernized codebase with 2026 maintenance updates
