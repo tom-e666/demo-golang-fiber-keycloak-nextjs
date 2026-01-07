@@ -1,5 +1,7 @@
 # Demo application: Golang, Fiber, JWT auth, Keycloak, NextJS, NextAuth, App router
 
+> **2026 Version** - Updated and maintained for 2026
+
 Check out the videos:
 
 Part 1/3 - [https://youtu.be/1u8GlfKyB_Q](https://youtu.be/1u8GlfKyB_Q)\

@@ -1,11 +1,12 @@
 version: '3.9'
 
 ## NOTE: use the script 'start-docker-compose' to run this 
+## 2026 update: Updated image versions for annual maintenance
 
 services:
 
   mariadb-server:
-    image: mariadb:10.6.13
+    image: mariadb:11.7.2
     command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
     environment:
       MYSQL_ROOT_PASSWORD: abcXYZ123$
@@ -16,7 +17,7 @@ services:
       - demo-network
 
   phpMyAdmin:
-    image: phpmyadmin/phpmyadmin:5.2.1
+    image: phpmyadmin/phpmyadmin:5.2.2
     depends_on:
       - mariadb-server
     environment:
@@ -38,7 +39,7 @@ services:
 
 
   keycloak:
-    image: quay.io/keycloak/keycloak:21.1.1    
+    image: quay.io/keycloak/keycloak:26.2.0
     ports:
       - 8181:8080
     command: -v start-dev --import-realm
